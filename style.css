@@ -1,0 +1,412 @@
+ .probody{
+    margin:0;
+    padding: 0;
+} 
+.main{
+    width:100%;
+    background-image:url(./images/trial2/copy2.jpeg);
+    background-size:cover;
+    height:120vh;   
+}
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin:auto;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height:70px;
+}
+.logohome{
+    color:rgb(0, 0, 0);
+    font-family:rockwell;
+    font-size: 30px;
+    padding-top: 10px;
+    float: left;
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+   font-family: Arial;
+   font-weight: bold;
+   transition:0.4s;
+   position: relative;
+   left:100px;
+}
+ul li a:hover{
+    color:wheat;    
+}
+  .search{
+    float:left;
+    width:200px;
+    height:30px;
+    margin-left:270px;
+}  
+.searching{
+    width:200px;
+    height:30px; 
+    font-family: sans-serif;
+    font-size:15px;
+   position: relative;
+   top: 20px;
+   border:1px solid black;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   padding-left:20px;
+   opacity: 55%;
+}   
+
+.button{
+    width:100px;
+    height: 30px; 
+    font-size: 15px;
+    float:left;
+    margin-left: 200px;
+    margin-bottom:550px;
+    position:relative;
+    top:-10px;
+    border: 1px solid black;
+    border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   opacity: 65%;
+}
+.textproject{
+    color: #ffffff;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 260px;
+    padding-right: 100px;
+   
+    }
+.sign{
+    border:0.1px solid white;
+    margin-top: 60px;
+    margin-left:450px;
+    opacity:80%;
+    width:150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    
+    }
+.footer{
+    text-align: center;
+    color:white;
+    background-color: rgb(26, 16, 9);
+    opacity:92%;
+}
+    /*--------------------------------------about  css-------------------------------------------*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .aboutbody{
+        width:1000px;
+        height:auto;
+        color: black;
+        background-image: url(./images/apart22.jpeg);
+    }
+    .aboutall{
+        display:flex;
+        align-items: center;
+    }
+    .boxabout{
+        width:300px;
+        height:250px;
+        background: wheat;
+        border-radius: 20px;
+        color: black;
+        border: 2px;
+        border-radius: 1px;
+         padding:50px 20px;
+         margin: 30px 60px;  
+         position: relative;
+         top: 200px;
+         opacity:80%;
+    }
+    .boxabout>i{
+        width: 80px;
+        height:80px;
+        font-size: 40px;
+        position: relative;
+        left: 100px;   
+    }
+    .boxesabout{
+        display: flex;
+        animation-duration: 1s;
+        animation-fill-mode:both;
+        animation-name:bounce;     
+    }
+     @keyframes bounce { 
+                100%{transform: translateY(-50px);}
+            
+             } 
+            
+    .partners{
+        padding-left: 50px;
+    }
+    .partners ul li{
+       position: relative;
+       right:70px;
+       bottom:10px;
+    }
+    .textabout{
+        text-align: center;
+        font-family:Tahoma ;
+        position: relative;
+        top:100px;
+        letter-spacing: 0.5pc;
+        color:wheat;
+    }
+/*-----------------------------------------------------login-----------------------------------------*/
+
+.loginbody{
+    background-image: url(./images/apart22.jpeg);  
+}
+.loginbody>#bg{
+    height:100%;
+    width:90%;
+    position: absolute;
+    z-index: -1;
+}
+ .logo2{
+    color:wheat;
+    font-family:Rockwell;
+    font-size: 30px;
+    padding-top: 10px;
+    float: left;
+    font-weight: bold;
+    position: relative;
+    left:40px;
+}
+.form{
+    width:320px;
+    height:450px;
+    text-align: center;
+    position: absolute;
+    margin-top: 110px;
+    left:460px;
+    border-radius:10px;
+    font-size:large;
+    font-family: 'Trebuchet MS';
+    border:2px solid white;
+    background-color: white;
+    opacity: 77%;
+}
+.new{
+    
+    font-family: 'Trebuchet MS';
+    padding-top: 10px;
+    font-weight: bold;
+}
+.user{
+    position: relative;
+    top:-15px;
+}
+.submit{
+    color:black;
+    background-color:white;
+    font-family:'Trebuchet MS';
+    font-size: 16px;
+    transition:0.4s;
+    margin-top: 20px;
+    border-radius: 5px; 
+    width: 80px;
+    height:30px;  
+    
+}
+.submit:hover{
+color:rgb(0, 0, 0);
+background:rgb(255, 218, 184);
+}
+.login{
+    border:2px solid black hidden;
+     border-radius: 10px; 
+    padding-top:60px;
+    position: relative;
+    top:-20px;
+    }
+.check{
+        padding-top:5px;
+        font-family: 'Trebuchet MS';
+        font-size: 17px;
+    }
+.email{
+    margin-bottom: 20px;
+    }
+    
+.pass{
+margin-bottom: 30px;
+} 
+/*-----------------------------------------contact---------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.contbody{
+    background-image:url(./images/wall.jpeg);    
+}
+
+.contactall>i{
+    font-size: 50px; 
+    font-family:arial;  
+}
+.boxescontact{
+    align-items: center;
+    display:flex;
+    /* margin:50px 100px; */
+    padding-bottom: 30px;
+    position: relative;
+    top:250px;
+    background-color: white;
+    opacity:80%;
+
+}
+.boxcontact{   
+    width:200px;
+    border: 2px solid black hidden;
+    margin: 30px 60px;
+    position: relative;
+    top:30px;
+    height:100px;
+
+}
+.boxcontact>i{
+    align-items: center;
+    font-size: 40px;   
+}
+.textcontact{
+    position: relative;
+    font-size: 30px;
+    top:100px;
+    text-align: center;
+    font-family:Bahnschrift SemiBold;
+    color: wheat;
+    animation: slideDown ease-out forwards .6s;
+}
+@keyframes slideDown{
+    0%{transform: translateY(0);}
+    100%{transform: translateX(-50px);opacity:5;}
+}
+
+.boxcontact>i.ri-instagram-line:hover{
+    color:rgb(235, 48, 145);
+}
+.boxcontact>i.ri-facebook-box-fill:hover{
+    color:rgb(23, 82, 210);
+}
+.boxcontact>i.ri-whatsapp-fill:hover{
+    color:rgb(13, 189, 42);
+}
+.boxcontact>i.ri-twitter-fill:hover{
+    color:rgb(55, 60, 207);
+}
+.boxcontact>i.ri-linkedin-box-fill:hover{
+    color:rgb(30, 68, 151);
+    }
+
+/*--------------------------------------------services--------------------------------------*/
+*{
+    margin: 0;  
+    padding:0;
+  }
+  .servbody{
+      background-image: url(./images/apart22.jpeg);
+      font-family: poppins,sans-serif;
+      color: wheat;
+  }
+  .services{
+      width:auto;
+      padding: 100px 60px;
+      margin: auto;
+  }
+   .textservices{
+    letter-spacing: normal;
+    font-family: 'Lucida Grande';
+      text-align: center;
+      font-size: 40px;
+      margin-top:50px ;
+      margin-bottom: 15px;
+      position: relative;
+      top:-40px;
+      animation: slide ease-in forwards .4s;
+  }
+  @keyframes slide{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(40%);opacity:5;}
+  }
+  .cards{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+  }
+  .card{
+  width: 300px;
+  height:250px;
+  background: #f2f2f2;
+  color:#333;
+  padding: 40px 12px;
+  margin:0 30px;
+  text-align: center;
+  cursor:pointer;
+  
+  }
+  .sbox i{
+      font-size: 40px;
+      border:1px solid black ;
+      border-radius:50%;
+      padding: 10px;
+      transition: 0.5s;
+  }
+  .sbox h3{
+      font-size: 20px;
+  } 
+   
+   .card:after{
+      content:'';
+      height:100%;
+      width:100%;
+      background:rgb(0, 184, 148, );
+      position: absolute;
+      top:0;
+      left:0;
+     z-index: -1;
+     transition:0.5s; 
+  
+  }
+  .card:hover:after{
+      transform:rotate(13deg);
+      background-color:rgb(171, 171, 171);
+  } 
+  .card:hover{
+    background-color:rgb(252, 235, 204);
+  }
+  .nav{
+    color: wheat;
+    text-decoration: none;
+    
+  }
+
+  
