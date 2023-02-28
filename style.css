@@ -4,7 +4,7 @@
 } 
 .main{
     width:100%;
-    background-image:url(./images/trial2/copy2.jpeg);
+    background-image:url(./images/apart22.jpeg);
     background-size:cover;
     height:120vh;   
 }
@@ -19,7 +19,7 @@
     height:70px;
 }
 .logohome{
-    color:rgb(0, 0, 0);
+    color:wheat;
     font-family:rockwell;
     font-size: 30px;
     padding-top: 10px;
